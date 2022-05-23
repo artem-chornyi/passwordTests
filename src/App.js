@@ -21,7 +21,7 @@ function App() {
                             return {
                                 symbol: modifiedValue[0],
                                 requirements : modifiedValue[1].substring(0, modifiedValue[1].length - 1),
-                                pasword: modifiedValue[2]
+                                password: modifiedValue[2]
                             }
                         });
                         setConditions(allText);
@@ -37,8 +37,8 @@ function App() {
     const passwordTests = () => {
         return [...conditions]
             .map(test => {
-                const {symbol, requirements, pasword} = test;
-                const numberOfOccurrences = pasword.split(symbol).length - 1;
+                const {symbol, requirements, password} = test;
+                const numberOfOccurrences = password.split(symbol).length - 1;
                 // or (pasword.match(new RegExp(symbol, "g")) || []).length
                 const minMax = requirements.split('-')
 
@@ -53,7 +53,6 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                
                 <p>
                     Еotal correct passwords {conditions[0] && passwordTests()}
                 </p>
