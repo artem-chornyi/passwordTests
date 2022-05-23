@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/passwordTests/static/css/main.073c9b0a.css",
+    "main.js": "/passwordTests/static/js/main.3f912a67.js",
+    "static/media/logo.svg": "/passwordTests/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/passwordTests/index.html",
+    "static/media/test.txt": "/passwordTests/static/media/test.4f4c0f7cd0f9930cc0b8.txt",
+    "main.073c9b0a.css.map": "/passwordTests/static/css/main.073c9b0a.css.map",
+    "main.3f912a67.js.map": "/passwordTests/static/js/main.3f912a67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3f912a67.js"
+  ]
+}
